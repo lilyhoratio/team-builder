@@ -9,9 +9,8 @@ import teamMembers from './data.js';
 function App() {
 
   const [memberList, setMemberList] = useState(teamMembers);
-  // const [memberList, setMemberList] = useState([{name: "lily", email: "lily@gmail.com", role: "software engineer"}]);
 
-  console.log(memberList)
+  // console.log(memberList)
 
   return (
     <div className="App">

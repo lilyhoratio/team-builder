@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
 function TeamMemberList(props){
-    console.log("props", props)
+    
     const {memberList} = props;
-    console.log("props", memberList)
+    // console.log("props", memberList)
     
     return (
         <div> 
